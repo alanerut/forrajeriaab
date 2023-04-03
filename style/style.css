@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: white;
+
+}
+
+h1, h2, p{
+    text-align: center;
+    padding: 4px;
+}
+
+.blok{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+}
+
+.img-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.img-fluid{
+    border: 5px solid black;
+}
+
+.fluid{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pie-pagina{
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+    color: aliceblue;
+  
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: bisque;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(194, 207, 207);
+    margin-right: 10px;
+    background-color: darkslategray;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color:rgb(6, 6, 47);
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+
+}
+
+.box-1{
+    text-align: justify;
+}
+
+
+.contenedor-1{
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+
+}
+
+.contenedor-2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imgProductos{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.colorBoton{
+    color: beige;
+    background-color: rgb(30, 109, 23);
+}
+
+.colorBoton:hover {
+    background-color: rgb(43, 226, 52);
+    color: bisque;
+}
+
+
+.navbar-nav{
+    text-align:justify;
+    text-decoration: dashed;
+}
+
+.section{
+    display: flex;
+    width: 50%;
+    height: 5%;
+}
+
+.section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+
+.section img:hover{
+    cursor: crosshair;
+    width: 30%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.principal{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+    color: aliceblue;
+}
+
+.ul-1{
+    text-align: center;
+    list-style: none;
+    margin: 5px;
+}
+
+.box-3{
+    text-align: center;
+}
+
+.sasa{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.prod-1{
+        width: 100%;
+        background-color: bisque;
+        color: rgb(14, 13, 13);
+      
+    
+}
+
+.prod-2{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 50px 0px;
+
+}
+
+.contenedor-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 450px;
+    margin-bottom:  5px;
+    box-shadow: 0px 0px 3px rgb(72, 11, 46) ;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.titulo-4{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+    color: aliceblue;
+}
+
+.card{
+    width: 80%;
+    height: 60%;
+}
+
+.servi-2{
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(224, 224, 229);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+    color: aliceblue;
+    
+}
+
+.conte .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 14px 0px;
+}
+
+.conte .form .form-header .form-title span{
+    color: rgb(230, 225, 225);
+
+}
+
+.conte .form {
+    background: rgb(80, 84, 80);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.conte .form .form-label {
+    display: block;
+    color: rgb(18, 17, 17);
+    font-size: 16px;
+    font-family: roboto;
+    position: relative;
+}
+
+.conte .form .form-input, .form-textarea{
+    background: rgb(249, 245, 245);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid coral;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: rgb(10, 10, 11);
+    font-family: roboto;
+}
+
+.conte .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.conte .form .btn-submit {
+    width: 100%;
+    font-family: roboto;
+    outline: none;
+    background: rgb(10, 9, 9);
+    font-size: 16px;
+    border: none;
+    color: rgb(226, 245, 245);
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.conte .form .btn-submit:hover {
+    background: rgb(19, 139, 21);
+
+}
+
+.h6{
+    text-align: justify;
+}
+
+.forraje-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+    background-color: burlywood;
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px  rgb(11, 164, 49);
+}
+
+.info-product{
+    padding: 15px 30px;
+}
+
+.item img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prince{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+@media screen and (max-width:800px){
+
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 30px;
+        height: 40px;
+        line-height: 45px;
+        color: rgb(194, 207, 207);
+        margin-right: 10px;
+        background-color: darkslategray;
+        text-align: center;
+        transition: all 300ms ease;
+    
+    }
+
+    .section{
+        width: 90%;
+        height: 80%;
+    }
+    
+    .pie-pagina{
+        width: 100%;
+        height: 25%;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+        color: aliceblue;
+      
+    }
+
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .pie-pagina .grupo-1 .box figure img{
+        width: 100px;
+    }
+
+
+ .pie-pagina .grupo-1 .box .ul-1 .sasa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forraje-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    gap: 20px;
+    background-color: burlywood;
+}
+
+.item img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    
+}
+
+}
