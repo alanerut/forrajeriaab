@@ -461,4 +461,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.978116246
     
 }
 
+.prod-2{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 50px 0px;
+
+}
+
 }
