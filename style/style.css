@@ -191,6 +191,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.978116246
     color: aliceblue;
 }
 
+.h3-3{
+    text-align: center;
+}
+
 .ul-1{
     text-align: center;
     list-style: none;
@@ -258,7 +262,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.978116246
 
 .card{
     width: 80%;
-    height: 60%;
+    height: 100%;
 }
 
 .servi-2{
@@ -397,6 +401,23 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.978116246
 
 
 @media screen and (max-width:800px){
+    .card{
+        width: 80%;
+        height: 100%;
+    }
+
+    .principal {
+        text-align: center;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(35,94,18,0.9781162464985994) 54%, rgba(11,72,12,1) 100%);
+        color: aliceblue;
+        width: 100%;
+    
+    }
+
+    .h3-3{
+        text-align: center;
+    }
 
     .pie-pagina .grupo-1 .red-social a{
         display: inline-block;
